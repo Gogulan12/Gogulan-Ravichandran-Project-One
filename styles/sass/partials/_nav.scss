@@ -1,0 +1,27 @@
+@use "./variables";
+
+.nav-main {
+  background: url("../textilee-assets/header-home.jpg");
+  height: 60vh;
+  h3 {
+    display: inline-block;
+  }
+}
+.nav-main .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-main .wrapper nav ul {
+  display: flex;
+}
+
+.nav-contact {
+  background: url("../textilee-assets/contact-header.jpg");
+  height: 60vh;
+}
+
+.nav-blog {
+  background: url("../textilee-assets/blog-header.jpg");
+  height: 60vh;
+}
