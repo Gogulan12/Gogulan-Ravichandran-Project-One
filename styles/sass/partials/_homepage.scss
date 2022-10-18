@@ -1,0 +1,48 @@
+@use "./variables";
+
+// LEARNING SECTION FOR MAIN PAGE
+
+main .learning {
+  padding-bottom: 100px;
+}
+
+main .learning .wrapper {
+  display: flex;
+}
+
+.learning .learning-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.learning .learning-text p {
+  width: 90%;
+}
+
+.learning .learning-text button {
+  width: fit-content;
+  padding: 15px 35px;
+  color: variables.$w-one;
+  background-color: variables.$primary;
+}
+
+//  GALLERY SECTION FOR MAIN PAGE
+
+.gallery {
+  background-color: variables.$b-one;
+  padding: 100px 0;
+}
+.gallery ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.gallery ul li {
+  list-style: none;
+}
+
+.gallery ul li img {
+  display: block;
+}

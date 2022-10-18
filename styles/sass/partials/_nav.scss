@@ -11,9 +11,17 @@
     padding-top: 25px;
   }
 }
-.nav-main .wrapper {
+.nav-main .wrapper .main-nav-section {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-main .wrapper h1 {
+  padding-top: 50px;
+}
+
+.nav-main .wrapper h1 span {
+  display: block;
 }
 
 .nav-main .wrapper nav ul {
@@ -56,6 +64,10 @@
   justify-content: space-between;
 }
 
+.nav-contact .wrapper h1 {
+  padding-top: 50px;
+}
+
 .nav-contact .wrapper nav ul {
   display: flex;
 }
@@ -94,6 +106,10 @@
 .nav-blog .wrapper .header-section {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-blog .wrapper h1 {
+  padding-top: 50px;
 }
 
 .nav-blog .wrapper nav ul {

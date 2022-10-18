@@ -54,3 +54,12 @@ footer h4 {
   font-size: 20px;
   color: variables.$w-one;
 }
+
+button {
+  font-family: variables.$headingFont;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 1.4px;
+  border: none;
+}
