@@ -503,7 +503,7 @@ main .learning .wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 15px 35px;
+  padding: 5px 35px 10px 35px;
   color: #ffffff;
   background-color: #1a315c;
 }
@@ -513,7 +513,7 @@ main .learning .wrapper {
   padding: 100px 0;
 }
 
-.gallery ul {
+.gallery .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,10 +523,108 @@ main .learning .wrapper {
   padding: 0;
 }
 
-.gallery ul li {
-  list-style: none;
+.gallery img {
+  display: block;
+  width: 30%;
 }
 
-.gallery ul li img {
+.events {
+  padding: 100px 0;
+}
+
+.events .icon {
+  padding-right: 15px;
+}
+
+.events .icon img {
+  width: 40px;
+  height: 40px;
+  background-color: #0cadc0;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.events .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.upcoming-events,
+.community,
+.Blog,
+.touch {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.read-more {
+  background-color: #21404f;
+  padding: 100px 0;
+}
+
+.read-more .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.read-more img {
+  width: 100%;
   display: block;
+}
+
+.read-more-img-one,
+.read-more-one,
+.read-more-img-two,
+.read-more-two {
+  width: 50%;
+}
+
+.read-more h2,
+.read-more p {
+  color: #ffffff;
+}
+
+.read-more button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 35px 10px 35px;
+  color: #161515;
+  background-color: #ccedfb;
+}
+
+.bottom-img {
+  background-image: url(../textilee-assets/banner.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search {
+  padding: 100px 0;
+}
+
+.search .wrapper {
+  text-align: center;
+}
+
+.search p {
+  padding-bottom: 30px;
+}
+
+.search button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 35px 10px 35px;
+  color: #ffffff;
+  background-color: #1a315c;
 }

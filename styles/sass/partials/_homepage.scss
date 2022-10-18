@@ -22,7 +22,7 @@ main .learning .wrapper {
 
 .learning .learning-text button {
   width: fit-content;
-  padding: 15px 35px;
+  padding: 5px 35px 10px 35px;
   color: variables.$w-one;
   background-color: variables.$primary;
 }
@@ -33,16 +33,110 @@ main .learning .wrapper {
   background-color: variables.$b-one;
   padding: 100px 0;
 }
-.gallery ul {
+.gallery .wrapper {
   display: flex;
   justify-content: space-between;
   padding: 0;
 }
 
-.gallery ul li {
-  list-style: none;
+.gallery img {
+  display: block;
+  width: 30%;
 }
 
-.gallery ul li img {
+// EVENT SECTION FOR MAIN PAGE
+
+.events {
+  padding: 100px 0;
+}
+
+.events .icon {
+  padding-right: 15px;
+}
+
+.events .icon img {
+  width: 40px;
+  height: 40px;
+  background-color: variables.$piccolor;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.events .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upcoming-events,
+.community,
+.Blog,
+.touch {
+  width: 50%;
+  display: flex;
+}
+
+// READ MORE SECTION MAIN PAGE
+
+.read-more {
+  background-color: variables.$b-one;
+  padding: 100px 0;
+}
+
+.read-more .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.read-more img {
+  width: 100%;
   display: block;
+}
+
+.read-more-img-one,
+.read-more-one,
+.read-more-img-two,
+.read-more-two {
+  width: 50%;
+}
+
+.read-more h2,
+.read-more p {
+  color: variables.$w-one;
+}
+
+.read-more button {
+  width: fit-content;
+  padding: 5px 35px 10px 35px;
+  color: variables.$b-two;
+  background-color: variables.$secondary;
+}
+
+// BOTTOM BACKGROUND SECTION MAIN PAGE
+
+.bottom-img {
+  background-image: url(../textilee-assets/banner.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// SEARCH SECTION MAIN PAGE
+
+.search {
+  padding: 100px 0;
+}
+
+.search .wrapper {
+  text-align: center;
+}
+
+.search p {
+  padding-bottom: 30px;
+}
+
+.search button {
+  width: fit-content;
+  padding: 5px 35px 10px 35px;
+  color: variables.$w-one;
+  background-color: variables.$primary;
 }
