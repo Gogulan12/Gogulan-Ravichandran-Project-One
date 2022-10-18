@@ -1,10 +1,14 @@
 @use "./variables";
 
+// HEADER IMAGE FOR HOME PAGE
 .nav-main {
   background: url("../textilee-assets/header-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 60vh;
   h3 {
     display: inline-block;
+    padding-top: 20px;
   }
 }
 .nav-main .wrapper {
@@ -16,12 +20,99 @@
   display: flex;
 }
 
+.nav-main .wrapper nav ul li {
+  list-style: none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: variables.$primary;
+}
+
+.nav-main a:link,
+.nav-main a:visited {
+  text-decoration: none;
+}
+
+.nav-main a:hover,
+.nav-main a:active {
+  text-decoration: underline;
+}
+
+// HEADER IMAGE FOR  CONTACT PAGE
+
 .nav-contact {
   background: url("../textilee-assets/contact-header.jpg");
   height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  h3 {
+    display: inline-block;
+    padding-top: 20px;
+  }
 }
+
+.nav-contact .wrapper .header-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-contact .wrapper nav ul {
+  display: flex;
+}
+
+.nav-contact .wrapper nav ul li {
+  list-style: none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: variables.$primary;
+}
+
+.nav-contact a:link,
+.nav-contact a:visited {
+  text-decoration: none;
+}
+
+.nav-contact a:hover,
+.nav-contact a:active {
+  text-decoration: underline;
+}
+
+// HEADER IMAGE FOR BLOG PAGE
 
 .nav-blog {
   background: url("../textilee-assets/blog-header.jpg");
   height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  h3 {
+    display: inline-block;
+    padding-top: 20px;
+  }
+}
+
+.nav-blog .wrapper .header-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-blog .wrapper nav ul {
+  display: flex;
+}
+
+.nav-blog .wrapper nav ul li {
+  list-style: none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: variables.$primary;
+}
+
+.nav-blog a:link,
+.nav-blog a:visited {
+  text-decoration: none;
+}
+
+.nav-blog a:hover,
+.nav-blog a:active {
+  text-decoration: underline;
 }

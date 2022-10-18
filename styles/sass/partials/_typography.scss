@@ -1,0 +1,49 @@
+@use "./variables";
+
+// @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+// @font-face {
+//   font-family: "Pacifico";
+//   src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+//   font-weight: normal;
+// }
+
+// @font-face {
+//   font-family: "Lato";
+//   src: url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+//   font-weight: normal;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+html {
+  /* if we set our root element font-size to 125%, then 1 rem = 20px */
+  font-size: 125%;
+}
+
+body {
+  font-family: variables.$bodyFont;
+  font-size: 1rem;
+  color: variables.$primary;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: variables.$headingFont;
+  font-weight: normal;
+  color: variables.$primary;
+  margin: 0;
+}
+
+a {
+  font-family: variables.$bodyFont;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 1.4px;
+}
