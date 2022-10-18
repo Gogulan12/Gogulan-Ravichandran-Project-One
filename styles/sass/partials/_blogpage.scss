@@ -1,1 +1,116 @@
 @use "./variables";
+
+// MAIN COLLECTIONS SECTION FOR BLOG PAGE
+.collection {
+  background-color: variables.$b-one;
+  padding-bottom: 100px;
+}
+
+.collection-img img {
+  width: 100%;
+  display: block;
+}
+
+.collection-text {
+  padding-top: 50px;
+}
+
+.collection .collection-text h2,
+.collection-text p {
+  color: variables.$w-one;
+}
+
+// COMMENTS SECTION FOR BLOG PAGE
+
+.comments {
+  padding-top: 100px;
+}
+
+.comment-one,
+.comment-two {
+  display: flex;
+}
+
+.comments h2 {
+  padding-bottom: 50px;
+}
+
+.comment-one,
+.comment-two {
+  padding-bottom: 50px;
+}
+
+.comment-one-text,
+.comment-two-text {
+  padding-left: 20px;
+}
+
+.comment-one-text h5,
+.comment-two-text h5 {
+  margin: 0;
+}
+
+// MESSAGE SECTION FOR BLOG PAGE
+
+.message-section {
+  padding-bottom: 100px;
+}
+
+.name-email {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  background-color: variables.$secondary;
+  border: none;
+  border-bottom: 1px solid variables.$piccolor;
+}
+
+input[id="name"] {
+  margin-right: 40px;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 20vh;
+  background-color: variables.$secondary;
+
+  border: 1px solid variables.$piccolor;
+  padding: 40px 0 0 20px;
+  margin-bottom: 40px;
+}
+
+.message-box button {
+  width: 100%;
+  text-align: center;
+  background-color: variables.$primary;
+  color: variables.$w-one;
+  padding: 10px 0 15px 0;
+}
+
+// ASIDE SECTION BLOG PAGE
+
+.main-and-aside {
+  display: flex;
+}
+
+.missions-backgound-div {
+  background-color: variables.$b-one;
+}
+
+.mission-img {
+  display: block;
+}
+
+.mission-text {
+  padding: 10px 0 10px 10px;
+}
+
+.mission-text h2,
+.mission-text p,
+.mission-text ul li {
+  color: variables.$w-one;
+}
