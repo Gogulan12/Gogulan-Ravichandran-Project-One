@@ -271,7 +271,7 @@ html {
 }
 .nav-main h3 {
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .nav-main .wrapper {
@@ -315,7 +315,7 @@ html {
 }
 .nav-contact h3 {
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .nav-contact .wrapper .header-section {
@@ -359,7 +359,7 @@ html {
 }
 .nav-blog h3 {
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .nav-blog .wrapper .header-section {
@@ -400,6 +400,12 @@ html {
   max-width: 1260px;
 }
 
+footer {
+  background-color: #161515;
+  text-align: center;
+  padding: 10px 0;
+}
+
 html {
   /* if we set our root element font-size to 125%, then 1 rem = 20px */
   font-size: 125%;
@@ -426,4 +432,11 @@ a {
   font-weight: bold;
   line-height: 32px;
   letter-spacing: 1.4px;
+}
+
+footer h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
 }
