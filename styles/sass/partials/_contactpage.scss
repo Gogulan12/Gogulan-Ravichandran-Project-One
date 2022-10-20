@@ -1,1 +1,59 @@
 @use "./variables";
+
+* {
+  border: 1px solid pink;
+}
+
+.contact-section {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.nav-contact {
+  height: 50vh;
+}
+
+.message-box {
+  width: 70%;
+  background-color: variables.$b-one;
+  padding: 50px 40px;
+  box-shadow: 15px 15px 0 0px variables.$piccolor;
+  // position: absolute;
+  // bottom: 150px;
+  // left: 25px;
+}
+
+.contact-section .name-email input[id="name"],
+.contact-section .name-email input[id="email"],
+.contact-section textarea[id="message"] {
+  background-color: variables.$b-one;
+  color: variables.$w-one;
+}
+
+.contact-section button {
+  background-color: variables.$secondary;
+  color: variables.$primary;
+  padding: 5px 0;
+}
+
+.contact-information {
+  margin-left: 10%;
+  display: flex;
+  position: relative;
+}
+
+.contact-information p {
+  margin: 0;
+}
+
+.contact-information .info {
+  padding-bottom: 30px;
+}
+
+.contact-information-container {
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70%;
+}
