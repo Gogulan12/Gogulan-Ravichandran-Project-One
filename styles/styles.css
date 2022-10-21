@@ -970,3 +970,11 @@ main .learning .wrapper {
   color: #ffffff;
   background-color: #1a315c;
 }
+
+@media (max-width: 1200px) {
+  .header-img img {
+    margin-top: -350px;
+    width: 60%;
+    height: 100%;
+  }
+}
