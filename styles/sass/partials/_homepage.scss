@@ -96,26 +96,79 @@ main .learning .wrapper {
 
 .read-more {
   background-color: variables.$b-one;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
-.read-more .wrapper {
+// READ ONE SECTION
+
+.read-one {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.read-one .read-more-img-one {
+  width: 45%;
+  position: relative;
+}
+
+.read-one .read-more-img-one img {
+  width: 100%;
+  box-shadow: 10px 10px 0 0 variables.$piccolor;
+  margin-top: -70px;
+}
+.read-one .read-more-one-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10%;
+}
+
+// READ TWO SECTION
+
+.read-two {
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
 
-.read-more img {
-  width: 100%;
-  display: block;
+.read-two .read-more-img-two {
+  width: 45%;
+  position: relative;
 }
 
-.read-more-img-one,
-.read-more-one,
-.read-more-img-two,
-.read-more-two {
-  width: 40%;
+.read-two .read-more-img-two img {
+  width: 100%;
+  box-shadow: -10px 10px 0 0 variables.$piccolor;
+  margin-bottom: -70px;
 }
+.read-two .read-more-two-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-left: 10%;
+}
+
+// .read-more .wrapper {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+// }
+
+// .read-more img {
+//   width: 100%;
+//   display: block;
+// }
+
+// .read-more-img-one,
+// .read-more-one,
+// .read-more-img-two,
+// .read-more-two {
+//   width: 40%;
+// }
 
 .read-more h2,
 .read-more p {
