@@ -38,11 +38,14 @@
 .nav-main a:link,
 .nav-main a:visited {
   text-decoration: none;
+  color: variables.$primary;
 }
 
 .nav-main a:hover,
 .nav-main a:active {
-  text-decoration: underline;
+  color: variables.$primary;
+  padding-bottom: 5px;
+  border-bottom: 3px solid variables.$piccolor;
 }
 
 // HEADER IMAGE FOR  CONTACT PAGE
@@ -82,11 +85,14 @@
 .nav-contact a:link,
 .nav-contact a:visited {
   text-decoration: none;
+  color: variables.$primary;
 }
 
 .nav-contact a:hover,
 .nav-contact a:active {
-  text-decoration: underline;
+  color: variables.$primary;
+  padding-bottom: 5px;
+  border-bottom: 3px solid variables.$piccolor;
 }
 
 // HEADER IMAGE FOR BLOG PAGE
@@ -126,9 +132,12 @@
 .nav-blog a:link,
 .nav-blog a:visited {
   text-decoration: none;
+  color: variables.$primary;
 }
 
 .nav-blog a:hover,
 .nav-blog a:active {
-  text-decoration: underline;
+  color: variables.$primary;
+  padding-bottom: 5px;
+  border-bottom: 3px solid variables.$piccolor;
 }

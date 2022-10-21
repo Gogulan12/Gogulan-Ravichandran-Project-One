@@ -4,6 +4,22 @@
 //   border: 1px solid pink;
 // }
 
+svg {
+  width: 25px;
+  height: 25px;
+  fill: variables.$b-one;
+}
+
+.contact-icons {
+  display: flex;
+}
+.facebook-icon,
+.instagram-icon,
+.twitter-icon,
+.whatsapp-icon {
+  margin-right: 20px;
+}
+
 .nav-contact .wrapper h1 {
   padding-top: 100px;
 }
@@ -35,7 +51,7 @@
 }
 
 .contact-section button {
-  background-color: variables.$secondary;
+  background-color: variables.$light-blue-button;
   color: variables.$primary;
   padding: 5px 0;
 }
@@ -60,6 +76,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 70%;
+  line-height: 30px;
 }
 
 .contact-footer {

@@ -72,6 +72,20 @@ main .learning .wrapper {
 }
 
 .events .icon img {
+  width: 30px;
+  height: 30px;
+  // background-color: variables.$piccolor;
+  // padding: 5px;
+  // border-radius: 50%;
+  justify-content: center;
+  padding: 3px;
+}
+
+.icon-one,
+.icon-two,
+.icon-three,
+.icon-four {
+  display: flex;
   width: 40px;
   height: 40px;
   background-color: variables.$piccolor;
@@ -179,7 +193,7 @@ main .learning .wrapper {
   width: fit-content;
   padding: 5px 35px 10px 35px;
   color: variables.$b-two;
-  background-color: variables.$secondary;
+  background-color: variables.$light-blue-button;
 }
 
 // BOTTOM BACKGROUND SECTION MAIN PAGE

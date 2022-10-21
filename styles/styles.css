@@ -307,11 +307,14 @@ html {
 .nav-main a:link,
 .nav-main a:visited {
   text-decoration: none;
+  color: #1a315c;
 }
 
 .nav-main a:hover,
 .nav-main a:active {
-  text-decoration: underline;
+  color: #1a315c;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #0cadc0;
 }
 
 .nav-contact {
@@ -355,11 +358,14 @@ html {
 .nav-contact a:link,
 .nav-contact a:visited {
   text-decoration: none;
+  color: #1a315c;
 }
 
 .nav-contact a:hover,
 .nav-contact a:active {
-  text-decoration: underline;
+  color: #1a315c;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #0cadc0;
 }
 
 .nav-blog {
@@ -403,11 +409,14 @@ html {
 .nav-blog a:link,
 .nav-blog a:visited {
   text-decoration: none;
+  color: #1a315c;
 }
 
 .nav-blog a:hover,
 .nav-blog a:active {
-  text-decoration: underline;
+  color: #1a315c;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #0cadc0;
 }
 
 .wrapper {
@@ -612,6 +621,25 @@ textarea {
   color: #ffffff;
 }
 
+svg {
+  width: 25px;
+  height: 25px;
+  fill: #21404f;
+}
+
+.contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon,
+.whatsapp-icon {
+  margin-right: 20px;
+}
+
 .nav-contact .wrapper h1 {
   padding-top: 100px;
 }
@@ -646,7 +674,7 @@ textarea {
 }
 
 .contact-section button {
-  background-color: #ccedfb;
+  background-color: #c6d9fb;
   color: #1a315c;
   padding: 5px 0;
 }
@@ -681,6 +709,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 70%;
+  line-height: 30px;
 }
 
 .contact-footer {
@@ -777,6 +806,21 @@ main .learning .wrapper {
 }
 
 .events .icon img {
+  width: 30px;
+  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3px;
+}
+
+.icon-one,
+.icon-two,
+.icon-three,
+.icon-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 40px;
   height: 40px;
   background-color: #0cadc0;
@@ -896,7 +940,7 @@ main .learning .wrapper {
   width: fit-content;
   padding: 5px 35px 10px 35px;
   color: #161515;
-  background-color: #ccedfb;
+  background-color: #c6d9fb;
 }
 
 .bottom-img {
