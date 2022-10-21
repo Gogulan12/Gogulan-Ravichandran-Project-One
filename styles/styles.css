@@ -267,7 +267,6 @@ html {
   background: url("../textilee-assets/header-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
 }
 .nav-main h3 {
   display: inline-block;
@@ -726,17 +725,22 @@ svg {
   height: 25vh;
 }
 
-.nav-main {
-  height: 50vh;
+.header-img {
+  position: relative;
 }
 
-header img {
-  margin-top: -350px;
+.header-img img {
   width: 55%;
+  margin-bottom: -125px;
+}
+
+.nav-main h1 {
+  padding-bottom: 50px;
 }
 
 main .learning {
   padding-bottom: 100px;
+  margin-top: 12%;
 }
 
 main .learning .wrapper {
@@ -972,9 +976,42 @@ main .learning .wrapper {
 }
 
 @media (max-width: 1200px) {
-  .header-img img {
-    margin-top: -350px;
-    width: 60%;
-    height: 100%;
+  .contact-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-footer {
+    position: static;
+  }
+  .contact-section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-information {
+    text-align: center;
+    margin-left: 0;
+  }
+  .contact-information-container {
+    margin-top: 50px;
+  }
+  .contact-icons {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .facebook-icon,
+.instagram-icon,
+.twitter-icon,
+.whatsapp-icon {
+    margin-right: 0;
+  }
+  .contact-section textarea[id=message] {
+    height: 20vh;
   }
 }

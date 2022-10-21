@@ -1,1 +1,38 @@
 @use "./variables";
+
+@media (max-width: 1200px) {
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-footer {
+    position: static;
+  }
+
+  .contact-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-information {
+    text-align: center;
+    margin-left: 0;
+  }
+  .contact-information-container {
+    margin-top: 50px;
+  }
+  .contact-icons {
+    // padding: 0;
+    // margin: 0;
+    justify-content: space-between;
+  }
+  .facebook-icon,
+  .instagram-icon,
+  .twitter-icon,
+  .whatsapp-icon {
+    margin-right: 0;
+  }
+
+  .contact-section textarea[id="message"] {
+    height: 20vh;
+  }
+}
