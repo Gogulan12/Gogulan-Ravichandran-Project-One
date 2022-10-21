@@ -15,7 +15,7 @@
 }
 
 .nav-contact {
-  height: 50vh;
+  height: 40vh;
 }
 
 .contact-section .message-box {
@@ -60,4 +60,18 @@
   justify-content: center;
   align-items: center;
   margin-top: 70%;
+}
+
+.contact-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.name-email {
+  padding-bottom: 40px;
+}
+
+.contact-section textarea[id="message"] {
+  height: 25vh;
 }

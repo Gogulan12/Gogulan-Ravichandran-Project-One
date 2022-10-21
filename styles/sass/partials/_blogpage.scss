@@ -1,18 +1,30 @@
 @use "./variables";
 
+.nav-blog {
+  height: 40vh;
+}
+
 // MAIN COLLECTIONS SECTION FOR BLOG PAGE
 .collection {
   background-color: variables.$b-one;
   padding-bottom: 100px;
+  width: 70%;
+  border-bottom: 10px solid variables.$piccolor;
+  border-right: 10px solid variables.$piccolor;
+  position: relative;
 }
 
 .collection-img img {
   width: 100%;
   display: block;
+  box-shadow: 10px 15px 0 0 variables.$piccolor;
+  margin-top: -100px;
 }
 
 .collection-text {
   padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .collection .collection-text h2,
@@ -24,6 +36,7 @@
 
 .comments {
   padding-top: 100px;
+  padding-right: 30%;
 }
 
 .comment-one,
@@ -54,6 +67,7 @@
 
 .message-section {
   padding-bottom: 100px;
+  padding-right: 30%;
 }
 
 .name-email {
@@ -93,20 +107,52 @@ textarea {
 
 // ASIDE SECTION BLOG PAGE
 
-.main-and-aside {
+// .main-and-aside {
+//   display: flex;
+// }
+
+// .missions-backgound-div {
+//   background-color: variables.$b-one;
+// }
+
+// .mission-img {
+//   display: block;
+// }
+
+// .mission-text {
+//   padding: 10px 0 10px 10px;
+// }
+
+// .mission-text h2,
+// .mission-text p,
+// .mission-text ul li {
+//   color: variables.$w-one;
+// }
+
+// ASIDE SECTION BLOG PAGE
+
+.collection-mission {
   display: flex;
+  justify-content: space-between;
 }
 
-.missions-backgound-div {
-  background-color: variables.$b-one;
+.mission {
+  width: 20%;
+}
+.mission-img img {
+  width: 100%;
+  margin-top: -10px;
+  margin-left: 10px;
 }
 
 .mission-img {
-  display: block;
+  margin-top: 50px;
+  background-color: variables.$b-one;
+  position: relative;
 }
 
 .mission-text {
-  padding: 10px 0 10px 10px;
+  padding: 20px 20px 20px 10px;
 }
 
 .mission-text h2,
