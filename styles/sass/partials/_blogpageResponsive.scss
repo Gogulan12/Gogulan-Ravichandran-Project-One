@@ -1,1 +1,117 @@
 @use "./variables";
+
+// MEDIA QUERY MAX WIDTH 1450px
+
+@media (max-width: 1450px) {
+  .mission-text p,
+  .mission-text ul li {
+    font-size: 16px;
+  }
+}
+
+// MEDIA QUERY MAX WIDTH 1130px
+@media (max-width: 1130px) {
+  .collection-mission {
+    flex-direction: column;
+  }
+
+  .collection {
+    width: 100%;
+    border-right: 0;
+    margin-bottom: 100px;
+  }
+
+  .collection-img {
+    margin-right: 10%;
+  }
+
+  // MISSION SECTION
+
+  .missions-background-div {
+    display: flex;
+    width: 90%;
+    // justify-content: center;
+    margin: 0 5%;
+  }
+
+  .mission {
+    width: 100%;
+  }
+
+  .mission-img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mission-img img {
+    margin: 0;
+    display: block;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  //   COMMENT SECTION
+
+  .comments {
+    padding: 100px 10%;
+  }
+
+  //   MESSAGE SECTION
+
+  .message-section {
+    padding-right: 0;
+  }
+}
+
+// MEDIA QUERY MAX WIDTH 700PX
+@media (max-width: 700px) {
+  // COLLECTION SECTION
+
+  .collection-img img {
+    box-shadow: 0 15px 0 0 variables.$piccolor;
+    width: 111%;
+  }
+
+  // MISSION SECTION
+
+  .missions-background-div {
+    flex-direction: column;
+  }
+
+  .mission-img img {
+    margin: 0;
+  }
+
+  // COMMENT SECTION
+
+  .comments {
+    padding: 100px 0;
+  }
+
+  .comment-one,
+  .comment-two {
+    flex-direction: column;
+  }
+  .comment-one-text,
+  .comment-two-text {
+    padding-left: 0;
+  }
+
+  .img-container {
+    margin-bottom: 20px;
+  }
+
+  // MESSAGE BOX SECITON
+
+  .name-email {
+    flex-direction: column;
+  }
+
+  .name-email input[id="email"] {
+    padding: 20px;
+  }
+
+  .name-email input[id="name"] {
+    margin-bottom: 20px;
+  }
+}

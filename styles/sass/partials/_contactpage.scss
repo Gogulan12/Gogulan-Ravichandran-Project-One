@@ -4,34 +4,35 @@
 //   border: 1px solid pink;
 // }
 
-svg {
-  width: 25px;
-  height: 25px;
-  fill: variables.$b-one;
-}
-
-.contact-icons {
-  display: flex;
-}
-.facebook-icon,
-.instagram-icon,
-.twitter-icon,
-.whatsapp-icon {
-  margin-right: 20px;
-}
+//************** NAVIGATION SECTION FOR CONTACT PAGE*****************
 
 .nav-contact .wrapper h1 {
   padding-top: 100px;
 }
 
-.contact-section {
+.nav-contact {
+  height: 40vh;
+}
+
+// ************MAIN CONTACT SECTION FOR CONTACT PAGE******************
+
+.contact-section .wrapper {
   display: flex;
   padding-bottom: 100px;
   position: relative;
 }
 
-.nav-contact {
-  height: 40vh;
+// ****************MESSAGE BOX SECTION*********************
+
+.contact-section .name-email input[id="name"],
+.contact-section .name-email input[id="email"],
+.contact-section textarea[id="message"] {
+  background-color: variables.$b-one;
+  color: variables.$w-one;
+}
+
+.name-email {
+  padding-bottom: 40px;
 }
 
 .contact-section .message-box {
@@ -43,11 +44,8 @@ svg {
   margin-left: -50px;
 }
 
-.contact-section .name-email input[id="name"],
-.contact-section .name-email input[id="email"],
 .contact-section textarea[id="message"] {
-  background-color: variables.$b-one;
-  color: variables.$w-one;
+  height: 25vh;
 }
 
 .contact-section button {
@@ -56,18 +54,12 @@ svg {
   padding: 5px 0;
 }
 
+// ***********CONTACT INFORMATION AND ADDRESS SECTION****************
+
 .contact-information {
   margin-left: 10%;
   display: flex;
   position: relative;
-}
-
-.contact-information p {
-  margin: 0;
-}
-
-.contact-information .info {
-  padding-bottom: 30px;
 }
 
 .contact-information-container {
@@ -79,16 +71,39 @@ svg {
   line-height: 30px;
 }
 
+// ICON PORTION OF CONTACT INFORMATION
+
+svg {
+  width: 25px;
+  height: 25px;
+  fill: variables.$b-one;
+}
+
+.contact-icons {
+  display: flex;
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon,
+.whatsapp-icon {
+  margin-right: 20px;
+}
+
+// EMAIL AND ADDRESS PORTION OF CONTACT INFORMATION
+
+.contact-information p {
+  margin: 0;
+}
+
+.contact-information .info {
+  padding-bottom: 30px;
+}
+
+// **********FOOTER SECTION OF CONTACT SECTION********************
+
 .contact-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-.name-email {
-  padding-bottom: 40px;
-}
-
-.contact-section textarea[id="message"] {
-  height: 25vh;
 }

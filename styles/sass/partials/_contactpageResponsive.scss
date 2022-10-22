@@ -1,28 +1,40 @@
 @use "./variables";
 
-@media (max-width: 1200px) {
-  .contact-section {
-    flex-direction: column;
-  }
-  .contact-footer {
-    position: static;
-  }
+// * {
+//   border: 1px solid purple;
+// }
 
-  .contact-section {
+//  ************MEDIA QUERY MAX WIDTH 1200PX****************
+
+@media (max-width: 1200px) {
+  // MAIN SECTION OF CONTACT PAGE
+
+  .contact-section .wrapper {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
+  .contact-section .message-box {
+    width: 100%;
+  }
+
+  .contact-section textarea[id="message"] {
+    height: 20vh;
+  }
+
+  // ICON SECTION OF CONTACT INFORMATION PORTION
 
   .contact-information {
     text-align: center;
     margin-left: 0;
   }
+
   .contact-information-container {
     margin-top: 50px;
   }
+
   .contact-icons {
-    // padding: 0;
-    // margin: 0;
     justify-content: space-between;
   }
   .facebook-icon,
@@ -32,7 +44,38 @@
     margin-right: 0;
   }
 
-  .contact-section textarea[id="message"] {
-    height: 20vh;
+  // FOOTER SECTION OF CONTACT PAGE
+
+  .contact-footer {
+    position: static;
+  }
+}
+
+// ************MEDIA QUERY MAX WIDTH 700PX****************
+
+@media (max-width: 700px) {
+  // HEADER SECTION
+
+  .contact-title {
+    text-align: center;
+  }
+
+  // MESSAGE BOX SECITON
+
+  .contact-section .message-box {
+    margin-left: 0;
+    box-shadow: 0 15px 0 0 variables.$piccolor;
+  }
+
+  .contact-name-email {
+    flex-direction: column;
+  }
+
+  .contact-name-email input[id="email"] {
+    padding: 20px;
+  }
+
+  .contact-name-email input[id="name"] {
+    margin-bottom: 20px;
   }
 }

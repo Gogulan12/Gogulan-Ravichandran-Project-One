@@ -513,16 +513,52 @@ button {
   color: #ffffff;
 }
 
-.comments {
-  padding-top: 100px;
-  padding-right: 30%;
-}
-
-.comment-one,
-.comment-two {
+.collection-mission {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mission {
+  width: 20%;
+}
+
+.missions-background-div {
+  background-color: #21404f;
+}
+
+.mission-img {
+  margin-top: 50px;
+  background-color: #21404f;
+  position: relative;
+}
+
+.mission-img img {
+  width: 100%;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.mission-text {
+  padding: 20px 20px 20px 10px;
+}
+
+.mission-text h2,
+.mission-text p,
+.mission-text ul li {
+  color: #ffffff;
+}
+
+.mission-text ul {
+  padding-left: 20px;
+}
+
+.comments {
+  padding-top: 100px;
+  padding-right: 30%;
 }
 
 .comments h2 {
@@ -531,6 +567,9 @@ button {
 
 .comment-one,
 .comment-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-bottom: 50px;
 }
 
@@ -585,39 +624,76 @@ textarea {
   padding: 10px 0 15px 0;
 }
 
-.collection-mission {
+.nav-contact .wrapper h1 {
+  padding-top: 100px;
+}
+
+.nav-contact {
+  height: 40vh;
+}
+
+.contact-section .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.mission {
-  width: 20%;
-}
-
-.mission-img img {
-  width: 100%;
-  margin-top: -10px;
-  margin-left: 10px;
-}
-
-.mission-img {
-  margin-top: 50px;
-  background-color: #21404f;
+  padding-bottom: 100px;
   position: relative;
 }
 
-.mission-text {
-  padding: 20px 20px 20px 10px;
+.contact-section .name-email input[id=name],
+.contact-section .name-email input[id=email],
+.contact-section textarea[id=message] {
+  background-color: #21404f;
+  color: #ffffff;
 }
 
-.mission-text h2,
-.mission-text p,
-.mission-text ul li {
-  color: #ffffff;
+.name-email {
+  padding-bottom: 40px;
+}
+
+.contact-section .message-box {
+  width: 70%;
+  background-color: #21404f;
+  padding: 50px 40px;
+  -webkit-box-shadow: 15px 15px 0 0px #0cadc0;
+          box-shadow: 15px 15px 0 0px #0cadc0;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.contact-section textarea[id=message] {
+  height: 25vh;
+}
+
+.contact-section button {
+  background-color: #c6d9fb;
+  color: #1a315c;
+  padding: 5px 0;
+}
+
+.contact-information {
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.contact-information-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70%;
+  line-height: 30px;
 }
 
 svg {
@@ -639,53 +715,6 @@ svg {
   margin-right: 20px;
 }
 
-.nav-contact .wrapper h1 {
-  padding-top: 100px;
-}
-
-.contact-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 100px;
-  position: relative;
-}
-
-.nav-contact {
-  height: 40vh;
-}
-
-.contact-section .message-box {
-  width: 70%;
-  background-color: #21404f;
-  padding: 50px 40px;
-  -webkit-box-shadow: 15px 15px 0 0px #0cadc0;
-          box-shadow: 15px 15px 0 0px #0cadc0;
-  margin-top: -100px;
-  margin-left: -50px;
-}
-
-.contact-section .name-email input[id=name],
-.contact-section .name-email input[id=email],
-.contact-section textarea[id=message] {
-  background-color: #21404f;
-  color: #ffffff;
-}
-
-.contact-section button {
-  background-color: #c6d9fb;
-  color: #1a315c;
-  padding: 5px 0;
-}
-
-.contact-information {
-  margin-left: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
 .contact-information p {
   margin: 0;
 }
@@ -694,35 +723,10 @@ svg {
   padding-bottom: 30px;
 }
 
-.contact-information-container {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 70%;
-  line-height: 30px;
-}
-
 .contact-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-.name-email {
-  padding-bottom: 40px;
-}
-
-.contact-section textarea[id=message] {
-  height: 25vh;
 }
 
 .header-img {
@@ -975,23 +979,117 @@ main .learning .wrapper {
   background-color: #1a315c;
 }
 
-@media (max-width: 1200px) {
-  .contact-section {
+@media (max-width: 1450px) {
+  .mission-text p,
+.mission-text ul li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1130px) {
+  .collection-mission {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contact-footer {
-    position: static;
+  .collection {
+    width: 100%;
+    border-right: 0;
+    margin-bottom: 100px;
   }
-  .contact-section {
+  .collection-img {
+    margin-right: 10%;
+  }
+  .missions-background-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+  }
+  .mission {
+    width: 100%;
+  }
+  .mission-img {
+    margin: 0;
+    padding: 0;
+  }
+  .mission-img img {
+    margin: 0;
+    display: block;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  .comments {
+    padding: 100px 10%;
+  }
+  .message-section {
+    padding-right: 0;
+  }
+}
+@media (max-width: 700px) {
+  .collection-img img {
+    -webkit-box-shadow: 0 15px 0 0 #0cadc0;
+            box-shadow: 0 15px 0 0 #0cadc0;
+    width: 111%;
+  }
+  .missions-background-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mission-img img {
+    margin: 0;
+  }
+  .comments {
+    padding: 100px 0;
+  }
+  .comment-one,
+.comment-two {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comment-one-text,
+.comment-two-text {
+    padding-left: 0;
+  }
+  .img-container {
+    margin-bottom: 20px;
+  }
+  .name-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .name-email input[id=email] {
+    padding: 20px;
+  }
+  .name-email input[id=name] {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .contact-section .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .contact-section .message-box {
+    width: 100%;
+  }
+  .contact-section textarea[id=message] {
+    height: 20vh;
   }
   .contact-information {
     text-align: center;
@@ -1011,7 +1109,29 @@ main .learning .wrapper {
 .whatsapp-icon {
     margin-right: 0;
   }
-  .contact-section textarea[id=message] {
-    height: 20vh;
+  .contact-footer {
+    position: static;
+  }
+}
+@media (max-width: 700px) {
+  .contact-title {
+    text-align: center;
+  }
+  .contact-section .message-box {
+    margin-left: 0;
+    -webkit-box-shadow: 0 15px 0 0 #0cadc0;
+            box-shadow: 0 15px 0 0 #0cadc0;
+  }
+  .contact-name-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-name-email input[id=email] {
+    padding: 20px;
+  }
+  .contact-name-email input[id=name] {
+    margin-bottom: 20px;
   }
 }

@@ -1,10 +1,13 @@
 @use "./variables";
 
+// NAVIGATION SECTION FOR BLOG PAGE
+
 .nav-blog {
   height: 40vh;
 }
 
 // MAIN COLLECTIONS SECTION FOR BLOG PAGE
+
 .collection {
   background-color: variables.$b-one;
   padding-bottom: 100px;
@@ -32,16 +35,54 @@
   color: variables.$w-one;
 }
 
+// MISSION SECTION OF THE MAIN BLOG SECTION
+
+.collection-mission {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission {
+  width: 20%;
+}
+
+.missions-background-div {
+  background-color: variables.$b-one;
+}
+
+// MISSION IMAGE
+.mission-img {
+  margin-top: 50px;
+  background-color: variables.$b-one;
+  position: relative;
+}
+
+.mission-img img {
+  width: 100%;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+// MISSION TEXT
+.mission-text {
+  padding: 20px 20px 20px 10px;
+}
+
+.mission-text h2,
+.mission-text p,
+.mission-text ul li {
+  color: variables.$w-one;
+}
+
+.mission-text ul {
+  padding-left: 20px;
+}
+
 // COMMENTS SECTION FOR BLOG PAGE
 
 .comments {
   padding-top: 100px;
   padding-right: 30%;
-}
-
-.comment-one,
-.comment-two {
-  display: flex;
 }
 
 .comments h2 {
@@ -50,6 +91,7 @@
 
 .comment-one,
 .comment-two {
+  display: flex;
   padding-bottom: 50px;
 }
 
@@ -103,60 +145,4 @@ textarea {
   background-color: variables.$primary;
   color: variables.$w-one;
   padding: 10px 0 15px 0;
-}
-
-// ASIDE SECTION BLOG PAGE
-
-// .main-and-aside {
-//   display: flex;
-// }
-
-// .missions-backgound-div {
-//   background-color: variables.$b-one;
-// }
-
-// .mission-img {
-//   display: block;
-// }
-
-// .mission-text {
-//   padding: 10px 0 10px 10px;
-// }
-
-// .mission-text h2,
-// .mission-text p,
-// .mission-text ul li {
-//   color: variables.$w-one;
-// }
-
-// ASIDE SECTION BLOG PAGE
-
-.collection-mission {
-  display: flex;
-  justify-content: space-between;
-}
-
-.mission {
-  width: 20%;
-}
-.mission-img img {
-  width: 100%;
-  margin-top: -10px;
-  margin-left: 10px;
-}
-
-.mission-img {
-  margin-top: 50px;
-  background-color: variables.$b-one;
-  position: relative;
-}
-
-.mission-text {
-  padding: 20px 20px 20px 10px;
-}
-
-.mission-text h2,
-.mission-text p,
-.mission-text ul li {
-  color: variables.$w-one;
 }
