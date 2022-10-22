@@ -1,19 +1,37 @@
 @use "./variables";
 
+// HAMBBURGER MENU NAVIGATION
+
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
 // HEADER IMAGE FOR HOME PAGE
 .nav-main {
   background: url("../textilee-assets/header-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  // height: 60vh;
+
   h3 {
     display: inline-block;
     padding-top: 25px;
   }
 }
-.nav-main .wrapper .main-nav-section {
-  display: flex;
-  justify-content: space-between;
+
+.nav-main a:link,
+.nav-main a:visited {
+  text-decoration: none;
+  color: variables.$primary;
+}
+
+.nav-main a:hover,
+.nav-main a:active {
+  color: variables.$primary;
+  padding-bottom: 5px;
+  border-bottom: 3px solid variables.$piccolor;
 }
 
 .nav-main .wrapper h1 {
@@ -35,17 +53,9 @@
   color: variables.$primary;
 }
 
-.nav-main a:link,
-.nav-main a:visited {
-  text-decoration: none;
-  color: variables.$primary;
-}
-
-.nav-main a:hover,
-.nav-main a:active {
-  color: variables.$primary;
-  padding-bottom: 5px;
-  border-bottom: 3px solid variables.$piccolor;
+.nav-main .wrapper .main-nav-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 // HEADER IMAGE FOR  CONTACT PAGE
@@ -62,9 +72,17 @@
   }
 }
 
-.nav-contact .wrapper .header-section {
-  display: flex;
-  justify-content: space-between;
+.nav-contact a:link,
+.nav-contact a:visited {
+  text-decoration: none;
+  color: variables.$primary;
+}
+
+.nav-contact a:hover,
+.nav-contact a:active {
+  color: variables.$primary;
+  padding-bottom: 5px;
+  border-bottom: 3px solid variables.$piccolor;
 }
 
 .nav-contact .wrapper h1 {
@@ -82,17 +100,9 @@
   color: variables.$primary;
 }
 
-.nav-contact a:link,
-.nav-contact a:visited {
-  text-decoration: none;
-  color: variables.$primary;
-}
-
-.nav-contact a:hover,
-.nav-contact a:active {
-  color: variables.$primary;
-  padding-bottom: 5px;
-  border-bottom: 3px solid variables.$piccolor;
+.nav-contact .wrapper .header-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 // HEADER IMAGE FOR BLOG PAGE
@@ -109,9 +119,17 @@
   }
 }
 
-.nav-blog .wrapper .header-section {
-  display: flex;
-  justify-content: space-between;
+.nav-blog a:link,
+.nav-blog a:visited {
+  text-decoration: none;
+  color: variables.$primary;
+}
+
+.nav-blog a:hover,
+.nav-blog a:active {
+  color: variables.$primary;
+  padding-bottom: 5px;
+  border-bottom: 3px solid variables.$piccolor;
 }
 
 .nav-blog .wrapper h1 {
@@ -129,15 +147,7 @@
   color: variables.$primary;
 }
 
-.nav-blog a:link,
-.nav-blog a:visited {
-  text-decoration: none;
-  color: variables.$primary;
-}
-
-.nav-blog a:hover,
-.nav-blog a:active {
-  color: variables.$primary;
-  padding-bottom: 5px;
-  border-bottom: 3px solid variables.$piccolor;
+.nav-blog .wrapper .header-section {
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,24 @@
+@use "./variables";
+
+@media (max-width: 680px) {
+  .main-nav-section nav {
+    display: none;
+  }
+
+  .hamburger-menu svg {
+    width: 90px;
+    height: 80px;
+  }
+  .hamburger-menu svg line {
+    stroke: variables.$b-one;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .nav-blog nav,
+  .nav-contact nav {
+    display: none;
+  }
+}
