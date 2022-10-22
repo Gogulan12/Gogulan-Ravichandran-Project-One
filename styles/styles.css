@@ -729,6 +729,10 @@ svg {
   width: 100%;
 }
 
+.nav-main h1 {
+  padding-bottom: 50px;
+}
+
 .header-img {
   position: relative;
 }
@@ -738,20 +742,21 @@ svg {
   margin-bottom: -125px;
 }
 
-.nav-main h1 {
-  padding-bottom: 50px;
-}
-
-main .learning {
+.learning {
   padding-bottom: 100px;
   margin-top: 12%;
 }
 
-main .learning .wrapper {
+.learning .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
+}
+
+.learning-img img {
+  -webkit-box-shadow: -15px 15px 0 0px #0cadc0;
+          box-shadow: -15px 15px 0 0px #0cadc0;
 }
 
 .learning .learning-text {
@@ -780,14 +785,14 @@ main .learning .wrapper {
   background-color: #1a315c;
 }
 
-.learning-img img {
-  -webkit-box-shadow: -15px 15px 0 0px #0cadc0;
-          box-shadow: -15px 15px 0 0px #0cadc0;
-}
-
 .gallery {
   background-color: #21404f;
   padding: 100px 0;
+}
+
+.gallery img {
+  display: block;
+  width: 30%;
 }
 
 .gallery .wrapper {
@@ -798,11 +803,6 @@ main .learning .wrapper {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0;
-}
-
-.gallery img {
-  display: block;
-  width: 30%;
 }
 
 .events {
@@ -909,6 +909,20 @@ main .learning .wrapper {
           justify-content: space-between;
 }
 
+.read-more h2,
+.read-more p {
+  color: #ffffff;
+}
+
+.read-more button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 35px 10px 35px;
+  color: #161515;
+  background-color: #c6d9fb;
+}
+
 .read-two .read-more-img-two {
   width: 45%;
   position: relative;
@@ -935,20 +949,6 @@ main .learning .wrapper {
           justify-content: center;
   text-align: right;
   padding-left: 10%;
-}
-
-.read-more h2,
-.read-more p {
-  color: #ffffff;
-}
-
-.read-more button {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 5px 35px 10px 35px;
-  color: #161515;
-  background-color: #c6d9fb;
 }
 
 .bottom-img {
@@ -1017,8 +1017,9 @@ main .learning .wrapper {
   .mission-img img {
     margin: 0;
     display: block;
-    margin-top: -30px;
-    margin-left: -30px;
+    width: 260px;
+    margin-top: -20px;
+    margin-left: -20px;
   }
   .comments {
     padding: 100px 10%;
@@ -1039,8 +1040,13 @@ main .learning .wrapper {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .mission-img {
+    height: 30vh;
+    overflow: hidden;
+  }
   .mission-img img {
     margin: 0;
+    width: 100%;
   }
   .comments {
     padding: 100px 0;
@@ -1133,5 +1139,10 @@ main .learning .wrapper {
   }
   .contact-name-email input[id=name] {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .nav-main {
+    height: 40vh;
   }
 }

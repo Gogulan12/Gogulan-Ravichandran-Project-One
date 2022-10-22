@@ -1,14 +1,8 @@
 @use "./variables";
 
-// @media (min-width: 1750px) {
-//   .header-img img {
-//     margin-top: -17%;
-//   }
-// }
-
-// @media (max-width: 1200px) {
-//   .nav-main {
-//     height: 40vh;
-//   }
-
-// }
+// MEDIA QUERY MAX WIDTH
+@media (max-width: 1200px) {
+  .nav-main {
+    height: 40vh;
+  }
+}

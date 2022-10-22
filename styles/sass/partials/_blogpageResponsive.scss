@@ -46,8 +46,9 @@
   .mission-img img {
     margin: 0;
     display: block;
-    margin-top: -30px;
-    margin-left: -30px;
+    width: 260px;
+    margin-top: -20px;
+    margin-left: -20px;
   }
 
   //   COMMENT SECTION
@@ -78,8 +79,14 @@
     flex-direction: column;
   }
 
+  .mission-img {
+    height: 30vh;
+    overflow: hidden;
+  }
+
   .mission-img img {
     margin: 0;
+    width: 100%;
   }
 
   // COMMENT SECTION

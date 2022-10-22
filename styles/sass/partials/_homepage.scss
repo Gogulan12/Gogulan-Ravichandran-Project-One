@@ -4,40 +4,35 @@
 //   border: 1px solid pink;
 // }
 
-// .nav-main {
-//   height: 50vh;
-// }
+//************** NAVIGATION SECTION FOR HOME PAGE *****************
 
-// HEADER IMAGE
+.nav-main h1 {
+  padding-bottom: 50px;
+}
 
 .header-img {
   position: relative;
 }
 
 .header-img img {
-  // margin-top: -25%;
-  // margin-left: -30px;
-  // width: 55%;
-  // height: auto;
-  // display: block;
   width: 55%;
   margin-bottom: -125px;
 }
 
-.nav-main h1 {
-  padding-bottom: 50px;
-}
+//************** LEARNING SECTION WITHIN MAIN SECTION *****************
 
-// LEARNING SECTION FOR MAIN PAGE
-
-main .learning {
+.learning {
   padding-bottom: 100px;
   margin-top: 12%;
 }
 
-main .learning .wrapper {
+.learning .wrapper {
   display: flex;
   margin-top: 30px;
+}
+
+.learning-img img {
+  box-shadow: -15px 15px 0 0px variables.$piccolor;
 }
 
 .learning .learning-text {
@@ -57,20 +52,11 @@ main .learning .wrapper {
   background-color: variables.$primary;
 }
 
-.learning-img img {
-  box-shadow: -15px 15px 0 0px variables.$piccolor;
-}
-
-//  GALLERY SECTION FOR MAIN PAGE
+//**************  GALLERY SECTION WITHIN MAIN SECTION**************
 
 .gallery {
   background-color: variables.$b-one;
   padding: 100px 0;
-}
-.gallery .wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
 }
 
 .gallery img {
@@ -78,7 +64,13 @@ main .learning .wrapper {
   width: 30%;
 }
 
-// EVENT SECTION FOR MAIN PAGE
+.gallery .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+//***************** EVENT SECTION WITHIN MAIN SECTION*******************
 
 .events {
   padding: 100px 0;
@@ -91,9 +83,6 @@ main .learning .wrapper {
 .events .icon img {
   width: 30px;
   height: 30px;
-  // background-color: variables.$piccolor;
-  // padding: 5px;
-  // border-radius: 50%;
   justify-content: center;
   padding: 3px;
 }
@@ -123,7 +112,7 @@ main .learning .wrapper {
   display: flex;
 }
 
-// READ MORE SECTION MAIN PAGE
+//***************READ MORE SECTION WITHIN MAIN SECTION************************
 
 .read-more {
   background-color: variables.$b-one;
@@ -164,6 +153,18 @@ main .learning .wrapper {
   justify-content: space-between;
 }
 
+.read-more h2,
+.read-more p {
+  color: variables.$w-one;
+}
+
+.read-more button {
+  width: fit-content;
+  padding: 5px 35px 10px 35px;
+  color: variables.$b-two;
+  background-color: variables.$light-blue-button;
+}
+
 .read-two .read-more-img-two {
   width: 45%;
   position: relative;
@@ -183,37 +184,7 @@ main .learning .wrapper {
   padding-left: 10%;
 }
 
-// .read-more .wrapper {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-// }
-
-// .read-more img {
-//   width: 100%;
-//   display: block;
-// }
-
-// .read-more-img-one,
-// .read-more-one,
-// .read-more-img-two,
-// .read-more-two {
-//   width: 40%;
-// }
-
-.read-more h2,
-.read-more p {
-  color: variables.$w-one;
-}
-
-.read-more button {
-  width: fit-content;
-  padding: 5px 35px 10px 35px;
-  color: variables.$b-two;
-  background-color: variables.$light-blue-button;
-}
-
-// BOTTOM BACKGROUND SECTION MAIN PAGE
+//************* BOTTOM BACKGROUND SECTION WITHIN MAIN SECTION*****************
 
 .bottom-img {
   background-image: url(../textilee-assets/banner.jpg);
@@ -222,7 +193,7 @@ main .learning .wrapper {
   background-size: cover;
 }
 
-// SEARCH SECTION MAIN PAGE
+//************ SEARCH SECTION WITHIN MAIN SECTION ****************************
 
 .search {
   padding: 100px 0;
