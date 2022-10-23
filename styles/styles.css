@@ -1234,6 +1234,9 @@ svg {
   .header-img {
     display: none;
   }
+  .learning {
+    margin-top: 8%;
+  }
   .learning .wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
