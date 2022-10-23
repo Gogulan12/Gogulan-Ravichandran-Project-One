@@ -44,6 +44,10 @@
     margin-right: 0;
   }
 
+  .contact-information .info {
+    padding: 0;
+  }
+
   // FOOTER SECTION OF CONTACT PAGE
 
   .contact-footer {
@@ -65,6 +69,7 @@
   .contact-section .message-box {
     margin-left: 0;
     box-shadow: 0 15px 0 0 variables.$piccolor;
+    font-size: 0.8rem;
   }
 
   .contact-name-email {
@@ -77,5 +82,19 @@
 
   .contact-name-email input[id="name"] {
     margin-bottom: 20px;
+  }
+
+  .contact-section button {
+    font-size: 1.2rem;
+  }
+
+  // ADDRESS SECTION
+
+  .contact-information {
+    font-size: 0.8rem;
+  }
+
+  .contact-information .info {
+    padding: 0;
   }
 }

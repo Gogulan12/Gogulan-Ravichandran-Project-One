@@ -99,6 +99,10 @@
 // MEDIA QUERY MAX WIDTH 950PX
 
 @media (max-width: 950px) {
+  .learning {
+    font-size: 0.8rem;
+  }
+
   .learning .wrapper {
     flex-direction: column-reverse;
   }
@@ -113,11 +117,54 @@
   .learning-text {
     text-align: center;
   }
+
+  .learning .learning-text p {
+    margin: 20px 5%;
+  }
+
+  .learning .learning-text button {
+    font-size: 1.2rem;
+  }
+
+  .events {
+    font-size: 0.8rem;
+  }
+
+  .read-one,
+  .read-two {
+    font-size: 0.8rem;
+  }
+
+  .read-more button {
+    font-size: 1.2rem;
+  }
+
+  .bottom-img {
+    height: 30vh;
+  }
+
+  .search {
+    font-size: 0.8rem;
+  }
+
+  .search button {
+    font-size: 1.2rem;
+  }
 }
+
+// MEDIA QUERY
 
 @media (max-width: 630px) {
   .nav-main .wrapper h1 {
     text-align: center;
     padding-top: 130px;
+  }
+}
+
+// MEDIA QUERY
+
+@media (max-width: 325px) {
+  .nav-main {
+    height: 40vh;
   }
 }

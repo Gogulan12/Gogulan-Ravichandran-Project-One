@@ -5,7 +5,7 @@
 @media (max-width: 1450px) {
   .mission-text p,
   .mission-text ul li {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
 }
 
@@ -23,6 +23,11 @@
 
   .collection-img {
     margin-right: 10%;
+  }
+
+  .collection-text,
+  .collection-text h4 {
+    font-size: 0.8rem;
   }
 
   // MISSION SECTION
@@ -51,6 +56,10 @@
     margin-left: -20px;
   }
 
+  .mission-text h2 {
+    font-size: 1.2rem;
+  }
+
   //   COMMENT SECTION
 
   .comments {
@@ -64,15 +73,7 @@
   }
 }
 
-// MEDIA QUERY MAX WIDTH 700PX
-@media (max-width: 700px) {
-  // COLLECTION SECTION
-
-  .collection-img img {
-    box-shadow: 0 15px 0 0 variables.$piccolor;
-    width: 111%;
-  }
-
+@media (max-width: 800px) {
   // MISSION SECTION
 
   .missions-background-div {
@@ -88,11 +89,32 @@
     margin: 0;
     width: 100%;
   }
+}
+
+// MEDIA QUERY MAX WIDTH 700PX
+@media (max-width: 700px) {
+  // NAVIGATION SECTION
+
+  .nav-blog {
+    height: 35vh;
+  }
+
+  // COLLECTION SECTION
+
+  .collection-img img {
+    box-shadow: 0 15px 0 0 variables.$piccolor;
+    width: 111%;
+  }
 
   // COMMENT SECTION
 
   .comments {
     padding: 100px 0;
+    font-size: 0.8rem;
+  }
+
+  .comments h2 {
+    padding-bottom: 30px;
   }
 
   .comment-one,
@@ -110,6 +132,10 @@
 
   // MESSAGE BOX SECITON
 
+  .message-section {
+    font-size: 0.8rem;
+  }
+
   .name-email {
     flex-direction: column;
   }
@@ -120,5 +146,9 @@
 
   .name-email input[id="name"] {
     margin-bottom: 20px;
+  }
+
+  .message-box button {
+    font-size: 1.2rem;
   }
 }

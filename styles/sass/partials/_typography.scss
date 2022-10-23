@@ -1,19 +1,5 @@
 @use "./variables";
 
-// @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-
-// @font-face {
-//   font-family: "Pacifico";
-//   src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-//   font-weight: normal;
-// }
-
-// @font-face {
-//   font-family: "Lato";
-//   src: url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-//   font-weight: normal;
-// }
-
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
@@ -44,7 +30,7 @@ h4 {
 a {
   font-family: variables.$bodyFont;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 1.6rem;
   letter-spacing: 1.4px;
 }
 
@@ -52,7 +38,7 @@ footer h4,
 h4 {
   font-family: variables.$bodyFont;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1rem;
   color: variables.$w-one;
 }
 
@@ -60,7 +46,7 @@ button {
   font-family: variables.$headingFont;
   justify-content: center;
   text-align: center;
-  font-size: 32px;
+  font-size: 1.6rem;
   letter-spacing: 1.4px;
   border: none;
 }

@@ -21,7 +21,7 @@ section {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0.67em 0;
 }
 
@@ -276,6 +276,10 @@ html {
   display: none;
 }
 
+.main-menu {
+  padding-top: 10px;
+}
+
 .nav-main {
   background: url("../textilee-assets/header-home.jpg");
   background-size: cover;
@@ -284,6 +288,7 @@ html {
 .nav-main h3 {
   display: inline-block;
   padding-top: 25px;
+  font-size: 1.5rem;
 }
 
 .nav-main a:link,
@@ -339,6 +344,7 @@ html {
 .nav-contact h3 {
   display: inline-block;
   padding-top: 25px;
+  font-size: 1.5rem;
 }
 
 .nav-contact a:link,
@@ -390,6 +396,7 @@ html {
 .nav-blog h3 {
   display: inline-block;
   padding-top: 25px;
+  font-size: 1.5rem;
 }
 
 .nav-blog a:link,
@@ -471,7 +478,7 @@ h4 {
 a {
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 1.6rem;
   letter-spacing: 1.4px;
 }
 
@@ -479,7 +486,7 @@ footer h4,
 h4 {
   font-family: "Lato", sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1rem;
   color: #ffffff;
 }
 
@@ -489,7 +496,7 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  font-size: 32px;
+  font-size: 1.6rem;
   letter-spacing: 1.4px;
   border: none;
 }
@@ -519,6 +526,7 @@ button {
   padding-top: 50px;
   padding-left: 10%;
   padding-right: 10%;
+  line-height: 28px;
 }
 
 .collection .collection-text h2,
@@ -565,6 +573,10 @@ button {
   color: #ffffff;
 }
 
+.mission-text p {
+  line-height: 28px;
+}
+
 .mission-text ul {
   padding-left: 20px;
 }
@@ -576,6 +588,10 @@ button {
 
 .comments h2 {
   padding-bottom: 50px;
+}
+
+.comments p {
+  line-height: 28px;
 }
 
 .comment-one,
@@ -787,6 +803,7 @@ svg {
 
 .learning .learning-text p {
   width: 90%;
+  line-height: 28px;
 }
 
 .learning .learning-text button {
@@ -821,6 +838,10 @@ svg {
 
 .events {
   padding: 100px 0;
+}
+
+.events p {
+  line-height: 28px;
 }
 
 .events .icon {
@@ -923,6 +944,10 @@ svg {
           justify-content: space-between;
 }
 
+.read-more p {
+  line-height: 28px;
+}
+
 .read-more h2,
 .read-more p {
   color: #ffffff;
@@ -982,6 +1007,7 @@ svg {
 
 .search p {
   padding-bottom: 30px;
+  line-height: 28px;
 }
 
 .search button {
@@ -996,7 +1022,7 @@ svg {
 @media (max-width: 1450px) {
   .mission-text p,
 .mission-text ul li {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 1130px) {
@@ -1013,6 +1039,10 @@ svg {
   }
   .collection-img {
     margin-right: 10%;
+  }
+  .collection-text,
+.collection-text h4 {
+    font-size: 0.8rem;
   }
   .missions-background-div {
     display: -webkit-box;
@@ -1035,6 +1065,9 @@ svg {
     margin-top: -20px;
     margin-left: -20px;
   }
+  .mission-text h2 {
+    font-size: 1.2rem;
+  }
   .comments {
     padding: 100px 10%;
   }
@@ -1042,12 +1075,7 @@ svg {
     padding-right: 0;
   }
 }
-@media (max-width: 700px) {
-  .collection-img img {
-    -webkit-box-shadow: 0 15px 0 0 #0cadc0;
-            box-shadow: 0 15px 0 0 #0cadc0;
-    width: 111%;
-  }
+@media (max-width: 800px) {
   .missions-background-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1062,8 +1090,22 @@ svg {
     margin: 0;
     width: 100%;
   }
+}
+@media (max-width: 700px) {
+  .nav-blog {
+    height: 35vh;
+  }
+  .collection-img img {
+    -webkit-box-shadow: 0 15px 0 0 #0cadc0;
+            box-shadow: 0 15px 0 0 #0cadc0;
+    width: 111%;
+  }
   .comments {
     padding: 100px 0;
+    font-size: 0.8rem;
+  }
+  .comments h2 {
+    padding-bottom: 30px;
   }
   .comment-one,
 .comment-two {
@@ -1079,6 +1121,9 @@ svg {
   .img-container {
     margin-bottom: 20px;
   }
+  .message-section {
+    font-size: 0.8rem;
+  }
   .name-email {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1090,6 +1135,9 @@ svg {
   }
   .name-email input[id=name] {
     margin-bottom: 20px;
+  }
+  .message-box button {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 1200px) {
@@ -1129,6 +1177,9 @@ svg {
 .whatsapp-icon {
     margin-right: 0;
   }
+  .contact-information .info {
+    padding: 0;
+  }
   .contact-footer {
     position: static;
   }
@@ -1141,6 +1192,7 @@ svg {
     margin-left: 0;
     -webkit-box-shadow: 0 15px 0 0 #0cadc0;
             box-shadow: 0 15px 0 0 #0cadc0;
+    font-size: 0.8rem;
   }
   .contact-name-email {
     -webkit-box-orient: vertical;
@@ -1153,6 +1205,15 @@ svg {
   }
   .contact-name-email input[id=name] {
     margin-bottom: 20px;
+  }
+  .contact-section button {
+    font-size: 1.2rem;
+  }
+  .contact-information {
+    font-size: 0.8rem;
+  }
+  .contact-information .info {
+    padding: 0;
   }
 }
 @media (max-width: 1340px) {
@@ -1239,6 +1300,9 @@ svg {
   }
 }
 @media (max-width: 950px) {
+  .learning {
+    font-size: 0.8rem;
+  }
   .learning .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1258,11 +1322,41 @@ svg {
   .learning-text {
     text-align: center;
   }
+  .learning .learning-text p {
+    margin: 20px 5%;
+  }
+  .learning .learning-text button {
+    font-size: 1.2rem;
+  }
+  .events {
+    font-size: 0.8rem;
+  }
+  .read-one,
+.read-two {
+    font-size: 0.8rem;
+  }
+  .read-more button {
+    font-size: 1.2rem;
+  }
+  .bottom-img {
+    height: 30vh;
+  }
+  .search {
+    font-size: 0.8rem;
+  }
+  .search button {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 630px) {
   .nav-main .wrapper h1 {
     text-align: center;
     padding-top: 130px;
+  }
+}
+@media (max-width: 325px) {
+  .nav-main {
+    height: 40vh;
   }
 }
 @media (max-width: 680px) {

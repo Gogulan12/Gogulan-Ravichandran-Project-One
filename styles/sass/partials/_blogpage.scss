@@ -28,6 +28,7 @@
   padding-top: 50px;
   padding-left: 10%;
   padding-right: 10%;
+  line-height: 28px;
 }
 
 .collection .collection-text h2,
@@ -74,6 +75,10 @@
   color: variables.$w-one;
 }
 
+.mission-text p {
+  line-height: 28px;
+}
+
 .mission-text ul {
   padding-left: 20px;
 }
@@ -87,6 +92,10 @@
 
 .comments h2 {
   padding-bottom: 50px;
+}
+
+.comments p {
+  line-height: 28px;
 }
 
 .comment-one,
