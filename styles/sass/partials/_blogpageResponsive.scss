@@ -152,3 +152,11 @@
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 340px) {
+  .nav-blog .wrapper h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2rem;
+  }
+}

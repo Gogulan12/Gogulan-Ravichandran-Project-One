@@ -98,3 +98,11 @@
     padding: 0;
   }
 }
+
+@media (max-width: 340px) {
+  .nav-contact .wrapper h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2rem;
+  }
+}

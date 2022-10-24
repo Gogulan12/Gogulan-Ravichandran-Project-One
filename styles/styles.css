@@ -1140,6 +1140,13 @@ svg {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 340px) {
+  .nav-blog .wrapper h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2rem;
+  }
+}
 @media (max-width: 1200px) {
   .contact-section .wrapper {
     -webkit-box-orient: vertical;
@@ -1214,6 +1221,13 @@ svg {
   }
   .contact-information .info {
     padding: 0;
+  }
+}
+@media (max-width: 340px) {
+  .nav-contact .wrapper h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2rem;
   }
 }
 @media (max-width: 1340px) {
@@ -1354,7 +1368,8 @@ svg {
 @media (max-width: 630px) {
   .nav-main .wrapper h1 {
     text-align: center;
-    padding-top: 130px;
+    padding-top: 80px;
+    font-size: 2rem;
   }
 }
 @media (max-width: 325px) {
