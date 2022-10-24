@@ -536,6 +536,10 @@ button {
   letter-spacing: 2px;
 }
 
+.collection .collection-text h2 {
+  padding-bottom: 15px;
+}
+
 .collection .collection-text h2,
 .collection-text p {
   color: #ffffff;
@@ -764,6 +768,7 @@ svg {
 .contact-information p {
   margin: 0;
   letter-spacing: 2px;
+  color: #161515;
 }
 
 .contact-information .info {
