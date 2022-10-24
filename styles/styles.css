@@ -832,6 +832,7 @@ svg {
   width: 90%;
   line-height: 28px;
   letter-spacing: 2px;
+  color: #161515;
 }
 
 .learning .learning-text button {
@@ -871,6 +872,7 @@ svg {
 .events p {
   line-height: 28px;
   letter-spacing: 2px;
+  color: #161515;
 }
 
 .events h2 {
@@ -1052,6 +1054,7 @@ svg {
   padding-bottom: 30px;
   line-height: 28px;
   letter-spacing: 2px;
+  color: #161515;
 }
 
 .search button {
