@@ -598,6 +598,9 @@ button {
 
 .comments h2 {
   padding-bottom: 50px;
+  color: #161515;
+  letter-spacing: 2.9px;
+  font-size: 1.5rem;
 }
 
 .comments p {
@@ -622,6 +625,7 @@ button {
 .comment-one-text h5,
 .comment-two-text h5 {
   margin: 0;
+  font-size: 0.9rem;
   letter-spacing: 2px;
 }
 
