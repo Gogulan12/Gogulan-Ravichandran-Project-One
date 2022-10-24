@@ -454,6 +454,12 @@ body {
   background-color: #ccedfb;
 }
 
+@media (max-width: 700px) {
+  h4,
+footer h4 {
+    font-size: 0.8rem;
+  }
+}
 html {
   /* if we set our root element font-size to 125%, then 1 rem = 20px */
   font-size: 125%;
@@ -527,6 +533,7 @@ button {
   padding-left: 10%;
   padding-right: 10%;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .collection .collection-text h2,
@@ -575,10 +582,13 @@ button {
 
 .mission-text p {
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .mission-text ul {
   padding-left: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 .comments {
@@ -592,6 +602,8 @@ button {
 
 .comments p {
   line-height: 28px;
+  color: #161515;
+  letter-spacing: 2px;
 }
 
 .comment-one,
@@ -610,6 +622,7 @@ button {
 .comment-one-text h5,
 .comment-two-text h5 {
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .message-section {
@@ -746,10 +759,11 @@ svg {
 
 .contact-information p {
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .contact-information .info {
-  padding-bottom: 30px;
+  padding: 20px 0;
 }
 
 .contact-footer {
@@ -801,9 +815,14 @@ svg {
           justify-content: space-between;
 }
 
+.learning .learning-text h2 {
+  letter-spacing: 2.9px;
+}
+
 .learning .learning-text p {
   width: 90%;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .learning .learning-text button {
@@ -842,6 +861,11 @@ svg {
 
 .events p {
   line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.events h2 {
+  letter-spacing: 2.9px;
 }
 
 .events .icon {
@@ -887,6 +911,7 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 20px 0;
 }
 
 .read-more {
@@ -946,6 +971,11 @@ svg {
 
 .read-more p {
   line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.read-more h2 {
+  letter-spacing: 2.9px;
 }
 
 .read-more h2,
@@ -1005,9 +1035,14 @@ svg {
   text-align: center;
 }
 
+.search h2 {
+  letter-spacing: 2.9px;
+}
+
 .search p {
   padding-bottom: 30px;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .search button {
@@ -1139,12 +1174,8 @@ svg {
   .message-box button {
     font-size: 1.2rem;
   }
-}
-@media (max-width: 340px) {
-  .nav-blog .wrapper h1 {
-    text-align: center;
-    padding-top: 80px;
-    font-size: 2rem;
+  footer h4 {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 1200px) {
@@ -1221,6 +1252,9 @@ svg {
   }
   .contact-information .info {
     padding: 0;
+  }
+  footer h4 {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 340px) {

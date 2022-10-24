@@ -15,3 +15,10 @@ footer {
 body {
   background-color: variables.$secondary;
 }
+
+@media (max-width: 700px) {
+  h4,
+  footer h4 {
+    font-size: 0.8rem;
+  }
+}

@@ -29,6 +29,7 @@
   padding-left: 10%;
   padding-right: 10%;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .collection .collection-text h2,
@@ -77,10 +78,13 @@
 
 .mission-text p {
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .mission-text ul {
   padding-left: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 // COMMENTS SECTION FOR BLOG PAGE
@@ -96,6 +100,8 @@
 
 .comments p {
   line-height: 28px;
+  color: variables.$b-two;
+  letter-spacing: 2px;
 }
 
 .comment-one,
@@ -112,6 +118,7 @@
 .comment-one-text h5,
 .comment-two-text h5 {
   margin: 0;
+  letter-spacing: 2px;
 }
 
 // MESSAGE SECTION FOR BLOG PAGE

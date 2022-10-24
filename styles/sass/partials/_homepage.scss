@@ -41,9 +41,14 @@
   justify-content: space-between;
 }
 
+.learning .learning-text h2 {
+  letter-spacing: 2.9px;
+}
+
 .learning .learning-text p {
   width: 90%;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .learning .learning-text button {
@@ -72,11 +77,6 @@
   flex-wrap: wrap;
 }
 
-// .gallery-img {
-//   width: 30%;
-//   padding-right: 20px;
-// }
-
 //***************** EVENT SECTION WITHIN MAIN SECTION*******************
 
 .events {
@@ -85,11 +85,12 @@
 
 .events p {
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
-// .events h2 {
-//   font-size: 2.15rem;
-// }
+.events h2 {
+  letter-spacing: 2.9px;
+}
 
 .events .icon {
   padding-right: 15px;
@@ -125,6 +126,7 @@
 .touch {
   width: 50%;
   display: flex;
+  margin: 20px 0;
 }
 
 //***************READ MORE SECTION WITHIN MAIN SECTION************************
@@ -170,6 +172,11 @@
 
 .read-more p {
   line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.read-more h2 {
+  letter-spacing: 2.9px;
 }
 
 .read-more h2,
@@ -222,9 +229,14 @@
   text-align: center;
 }
 
+.search h2 {
+  letter-spacing: 2.9px;
+}
+
 .search p {
   padding-bottom: 30px;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 
 .search button {
