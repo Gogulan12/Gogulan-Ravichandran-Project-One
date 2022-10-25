@@ -35,7 +35,6 @@
   .missions-background-div {
     display: flex;
     width: 90%;
-    // justify-content: center;
     margin: 0 5%;
   }
 
@@ -156,5 +155,11 @@
 
   footer h4 {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-blog .wrapper h1 {
+    font-size: 2rem;
   }
 }
