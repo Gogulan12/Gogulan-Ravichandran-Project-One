@@ -1,27 +1,11 @@
 @use "./variables";
 
+// MEDIA QUERY FOR JAVASCRIPT FUNCTIONS
 @media (max-width: 680px) {
-  // .main-nav-section nav {
-  //   display: none;
-  // }
-
-  // .hamburger-menu svg {
-  //   width: 90px;
-  //   height: 80px;
-  // }
-  // .hamburger-menu svg line {
-  //   stroke: variables.$b-one;
-  // }
-
   .hamburger-menu {
     display: block;
     padding-top: 25px;
   }
-
-  // .nav-blog nav,
-  // .nav-contact nav {
-  //   display: none;
-  // }
 
   .hamburger-menu.active .bar:nth-child(2) {
     opacity: 0;
