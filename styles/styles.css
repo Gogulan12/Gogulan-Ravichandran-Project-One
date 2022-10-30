@@ -682,6 +682,15 @@ textarea {
   background-color: #1a315c;
   color: #ffffff;
   padding: 10px 0 15px 0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.message-box button:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .nav-contact .wrapper h1 {

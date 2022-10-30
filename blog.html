@@ -162,16 +162,23 @@
 
       <!-- MESSAGE BOX SECTION OF BLOG PAGE -->
       <section class="message-section wrapper">
-        <div class="message-box">
+        <form class="message-box">
           <div class="name-email">
             <label for="name"></label>
-            <input type="text" id="name" name="name" placeholder="Name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
             <label for="email"></label>
             <input
               type="text"
               id="email"
               name="email"
               placeholder="Email Address"
+              required
             />
           </div>
           <!-- END .name-email -->
@@ -181,9 +188,10 @@
             id="message"
             name="message"
             placeholder="Comment"
+            required
           ></textarea>
-          <button>post comment</button>
-        </div>
+          <button type="submit">post comment</button>
+        </form>
         <!-- END .message-section wrapper -->
       </section>
     </main>
