@@ -1,24 +1,56 @@
 @use "./variables";
 
 @media (max-width: 680px) {
-  .main-nav-section nav {
-    display: none;
-  }
+  // .main-nav-section nav {
+  //   display: none;
+  // }
 
-  .hamburger-menu svg {
-    width: 90px;
-    height: 80px;
-  }
-  .hamburger-menu svg line {
-    stroke: variables.$b-one;
-  }
+  // .hamburger-menu svg {
+  //   width: 90px;
+  //   height: 80px;
+  // }
+  // .hamburger-menu svg line {
+  //   stroke: variables.$b-one;
+  // }
 
   .hamburger-menu {
-    display: flex;
+    display: block;
+    padding-top: 25px;
   }
 
-  .nav-blog nav,
-  .nav-contact nav {
-    display: none;
+  // .nav-blog nav,
+  // .nav-contact nav {
+  //   display: none;
+  // }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  .main-menu {
+    position: fixed;
+    left: 100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: variables.$secondary;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .main-menu li {
+    margin: 16px 0;
+  }
+
+  .main-menu.active {
+    left: 0;
   }
 }

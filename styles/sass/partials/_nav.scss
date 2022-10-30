@@ -13,6 +13,15 @@
   padding-top: 10px;
 }
 
+.bar {
+  display: block;
+  width: 35px;
+  height: 5px;
+  margin: 5px 5px;
+  transition: all 0.3s ease-in-out;
+  background-color: variables.$primary;
+}
+
 // HEADER IMAGE FOR HOME PAGE
 .nav-main {
   background: url("../textilee-assets/header-home.jpg");

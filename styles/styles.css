@@ -280,6 +280,16 @@ html {
   padding-top: 10px;
 }
 
+.bar {
+  display: block;
+  width: 35px;
+  height: 5px;
+  margin: 5px 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #1a315c;
+}
+
 .nav-main {
   background: url("../textilee-assets/header-home.jpg");
   background-size: cover;
@@ -1146,6 +1156,7 @@ svg {
     -webkit-box-shadow: 0 15px 0 0 #0cadc0;
             box-shadow: 0 15px 0 0 #0cadc0;
     width: 111%;
+    margin-top: -50px;
   }
   .comments {
     padding: 100px 0;
@@ -1429,23 +1440,40 @@ svg {
   }
 }
 @media (max-width: 680px) {
-  .main-nav-section nav {
-    display: none;
-  }
-  .hamburger-menu svg {
-    width: 90px;
-    height: 80px;
-  }
-  .hamburger-menu svg line {
-    stroke: #21404f;
-  }
   .hamburger-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    padding-top: 25px;
   }
-  .nav-blog nav,
-.nav-contact nav {
-    display: none;
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-menu.active .bar:nth-child(1) {
+    -webkit-transform: translateY(10px) rotate(45deg);
+            transform: translateY(10px) rotate(45deg);
+  }
+  .hamburger-menu.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+            transform: translateY(-10px) rotate(-45deg);
+  }
+  .main-menu {
+    position: fixed;
+    left: 100%;
+    top: 70px;
+    gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #ccedfb;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .main-menu li {
+    margin: 16px 0;
+  }
+  .main-menu.active {
+    left: 0;
   }
 }
