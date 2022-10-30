@@ -34,17 +34,18 @@ console.log(formName);
 const formEmail = document.querySelector(".message-box input[name=email");
 console.log(formEmail);
 
-formElement.addEventListener("click", function () {
-  if (formName.value.length == 0 && formEmail.value.length == 0) {
-    console.log("Please fill all fields!");
-    // window.alert("please fill all fields!");
-  } else {
-    console.log("submitted!!");
-    // window.alert("Message submitted!");
-    // formName.value = "";
-    // console.log("cleared");
-  }
-});
+// formElement.addEventListener("click", function () {
+//   if (formName.value.length == 0 || formEmail.value.length == 0) {
+//     console.log("Please fill all fields!");
+//     window.alert("please fill all fields!");
+//   } else {
+//     console.log("submitted!!");
+//     window.alert("Message submitted!");
+//     formName.value = "";
+//     formEmail.value = "";
+//     console.log("cleared");
+//   }
+// });
 
 // formElement.addEventListener("click", function () {
 //   if (formEmail.value.length == 0 ) {
