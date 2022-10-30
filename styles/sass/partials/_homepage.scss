@@ -53,6 +53,12 @@
   padding: 5px 35px 10px 35px;
   color: variables.$w-one;
   background-color: variables.$primary;
+  transition-duration: 0.3s;
+}
+
+.learning .learning-text button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }
 
 //**************  GALLERY SECTION WITHIN MAIN SECTION**************
@@ -187,6 +193,12 @@
   padding: 5px 35px 10px 35px;
   color: variables.$b-two;
   background-color: variables.$light-blue-button;
+  transition-duration: 0.3s;
+}
+
+.read-more button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }
 
 .read-two .read-more-img-two {
@@ -243,4 +255,10 @@
   padding: 5px 35px 10px 35px;
   color: variables.$w-one;
   background-color: variables.$primary;
+  transition-duration: 0.3s;
+}
+
+.search button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }

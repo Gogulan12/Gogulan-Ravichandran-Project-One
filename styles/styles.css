@@ -870,6 +870,15 @@ svg {
   padding: 5px 35px 10px 35px;
   color: #ffffff;
   background-color: #1a315c;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.learning .learning-text button:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .gallery {
@@ -1029,6 +1038,15 @@ svg {
   padding: 5px 35px 10px 35px;
   color: #161515;
   background-color: #c6d9fb;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.read-more button:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .read-two .read-more-img-two {
@@ -1092,6 +1110,15 @@ svg {
   padding: 5px 35px 10px 35px;
   color: #ffffff;
   background-color: #1a315c;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.search button:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 @media (max-width: 1450px) {
