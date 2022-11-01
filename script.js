@@ -8,12 +8,12 @@ hamburger.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
 
-document.querySelectorAll(".main-menu li a").forEach((n) =>
+document.querySelectorAll(".main-menu li a").forEach(function (n) {
   n.addEventListener("click", function () {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-  })
-);
+  });
+});
 
 // // ADDED FORM SUBMITION ON CONTACT AND BLOG
 
