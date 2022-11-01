@@ -3,6 +3,7 @@
 const hamburger = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".main-menu");
 
+// referenced code from https://www.youtube.com/watch?v=flItyHiDm7E&ab_channel=codefoxx to add slide function and hamburger "x" to menu
 hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
